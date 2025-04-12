@@ -2,7 +2,7 @@
 import { createContext, useContext, useState, ReactNode, useEffect } from "react";
 import { mockProjects } from "../data/mockProjects";
 import { Project, Task, ProjectStatus } from "../types";
-import { toast } from "@/components/ui/sonner";
+import { toast } from "sonner";
 
 // Context type
 type ProjectContextType = {
